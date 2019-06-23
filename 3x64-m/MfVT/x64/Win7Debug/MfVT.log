@@ -1,0 +1,24 @@
+﻿  Building 'MfVT' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Stamping x64\Win7Debug\MfVT.inf
+  Stamping [Version] section with DriverVer=06/24/2019,1.10.58.480
+  Performing Custom Build Tools
+  Microsoft (R) Macro Assembler (x64) Version 14.16.27031.1
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+   Assembling: amd64asm\common-asm.asm
+  Performing Custom Build Tools
+  Microsoft (R) Macro Assembler (x64) Version 14.16.27031.1
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+   Assembling: amd64asm\regs.asm
+  Performing Custom Build Tools
+  Microsoft (R) Macro Assembler (x64) Version 14.16.27031.1
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+   Assembling: amd64asm\vmx-asm.asm
+  common.c
+  hvm.c
+  MfVT.c
+  vmx.c
+  Generating Code...
+  MfVT.vcxproj -> E:\MF\VT\16vt-tech\demo\3x64-m\MfVT\x64\Win7Debug\MfVT.sys

@@ -1,0 +1,55 @@
+﻿  Building 'MfVT' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Stamping Win7Debug\MfVT.inf [Version] section with DriverVer=07/09/2018,13.18.52.855
+  common.c
+  hvm.c
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\hvm.c(78): error C4013: '__vmx_on' undefined; assuming extern returning int
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\hvm.c(86): error C4013: '__vmx_vmclear' undefined; assuming extern returning int
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\hvm.c(87): error C4013: '__vmx_vmptrld' undefined; assuming extern returning int
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\hvm.c(101): error C4013: '__vmx_vmlaunch' undefined; assuming extern returning int
+  MfVT.c
+  vmx.c
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(44): error C4013: '__vmx_vmwrite' undefined; assuming extern returning int
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(67): error C4013: '__vmx_vmread' undefined; assuming extern returning int
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(202): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(214): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(246): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(247): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(248): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(264): warning C4305: 'type cast': truncation from 'ULONG64' to 'PVOID'
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(268): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(269): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(272): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(273): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(274): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(276): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(277): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(279): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(280): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(281): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(282): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(283): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(288): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(289): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(291): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(294): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(295): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(296): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(297): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(299): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(300): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(301): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(304): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(305): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(322): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(323): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(324): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(325): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(329): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(330): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(331): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(332): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(333): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(334): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(335): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+d:\mallocfree_2018\windows\16vt-tech\demo\3x64-m\mfvt\vmx.c(348): error C2708: '__vmx_vmwrite': actual parameters length in bytes differs from previous call or reference
+  Generating Code...

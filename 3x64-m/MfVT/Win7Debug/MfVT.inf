@@ -1,0 +1,32 @@
+;
+; MfVT.inf
+;
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=
+ClassGuid={D35D19CE-A835-4D41-A09B-F04D9B5BA999}
+Provider="MallocFree"
+DriverVer = 07/09/2018,13.18.52.855
+CatalogFile=MfVT.cat
+
+[DestinationDirs]
+DefaultDestDir = 12
+
+
+[SourceDisksNames]
+1 = %DiskName%,,,""
+
+[SourceDisksFiles]
+
+
+[Manufacturer]
+%ManufacturerName%=Standard,NTx86
+
+[Standard.NTx86]
+
+
+[Strings]
+ManufacturerName=""
+ClassName=""
+DiskName="MfVT Source Disk"
